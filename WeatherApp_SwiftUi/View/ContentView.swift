@@ -19,7 +19,7 @@ struct ContentView: View {
                     .frame(width: 200, height: 40)
                     .foregroundColor(.white)
                     .clipShape(Capsule())
-                Image(systemName: "magnifyingglass")
+                Image(systemName: "magnifyingglass") 
                     .onTapGesture {
                         Task {
                             do {
